@@ -1,0 +1,300 @@
+{
+  "data": [
+    {
+        "id": 139,
+        "name": "Girls",
+        "type": "Scripted",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/31/78286.jpg",
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/31/78286.jpg"
+        },
+        "like": null,
+        "dislike": null
+    },
+    {
+        "id": 41734 ,
+        "name": "GIRLS" ,
+        "type": "Scripted" ,
+        "genres": [
+          "Comedy"
+        ] ,
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/191/478539.jpg" ,
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/191/478539.jpg"
+        },
+        "like": null,
+        "dislike": null
+    },
+    {
+        "id": 23542,
+        "name": "Good Girls",
+        "type": "Scripted",
+        "genres": [
+          "Drama",
+          "Comedy",
+          "Crime"
+        ],
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/235/589545.jpg",
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/235/589545.jpg"
+        },
+        "like": null,
+        "dislike": null
+    },
+    {
+      "id": 7108,
+        "name": "Mohawk Girls",
+        "type": "Scripted",
+        "genres": [
+          "Drama",
+          "Comedy",
+          "Romance"
+        ],
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/26/66494.jpg",
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/26/66494.jpg"
+        },
+        "like": null,
+        "dislike": null
+    },
+    {
+        "id": 33320,
+        "name": "Derry Girls",
+        "type": "Scripted",
+        "genres": [
+          "Comedy"
+        ],
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/184/460240.jpg",
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/184/460240.jpg"
+        },
+        "like": null,
+        "dislike": null
+    },
+    {
+        "id": 6771,
+        "name": "The Powerpuff Girls",
+        "type": "Animation",
+        "genres": [
+          "Comedy",
+          "Action",
+          "Science-Fiction"
+        ],
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/60/151357.jpg",
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+        },
+        "like": null,
+        "dislike": null
+    },
+    {
+        "id": 525,
+        "name": "Gilmore Girls",
+        "type": "Scripted",
+        "genres": [
+          "Drama",
+          "Comedy",
+          "Romance"
+        ],
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/4/11308.jpg",
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/4/11308.jpg"
+        },
+        "like": null,
+        "dislike": null
+    },
+    {
+        "id": 722,
+        "name": "The Golden Girls",
+        "type": "Scripted",
+        "genres": [
+          "Drama",
+          "Comedy"
+        ],
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/6/15097.jpg",
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/6/15097.jpg"
+        },
+        "like": null,
+        "dislike": null
+    },
+    {
+        "id": 1073,
+        "name": "Bomb Girls",
+        "type": "Scripted",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/7/17549.jpg",
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/7/17549.jpg"
+        },
+        "like": null,
+        "dislike": null
+    },
+    {
+        "id": 1308,
+        "name": "Bad Girls",
+        "type": "Scripted",
+        "genres": [
+          "Drama",
+          "Crime",
+          "Romance"
+        ],
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/7/18492.jpg",
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/7/18492.jpg"
+        },
+        "like": null,
+        "dislike": null
+    },
+    {
+        "id": 3153 ,
+        "name": "Mr. D" ,
+        "type": "Scripted" ,
+        "genres": [
+          "Comedy"
+        ] ,
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/17/43209.jpg" ,
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/17/43209.jpg"
+        } ,
+        "like": null ,
+        "dislike": null
+    },
+    {
+            "id": 9740,
+          "name": "Initial D",
+          "type": "Animation",
+          "genres": [
+            "Action",
+            "Anime"
+          ],
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/33/84480.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/33/84480.jpg"
+          },
+          "like": null,
+          "dislike": null
+      },
+      {
+            "id": 37533,
+          "name": "Triple D Nation",
+          "type": "Reality",
+          "genres": [
+            "Food",
+            "Travel"
+          ],
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/159/399804.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/159/399804.jpg"
+          },
+          "like": null,
+          "dislike": null
+      },
+      {
+            "id": 2590,
+          "name": "Tenacious D",
+          "type": "Scripted",
+          "genres": [],
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/13/34472.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/13/34472.jpg"
+          },
+          "like": null,
+          "dislike": null
+      },
+      {
+            "id": 22461,
+          "name": "Sunny D",
+          "type": "Scripted",
+          "genres": [
+            "Comedy"
+          ],
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/85/213487.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/85/213487.jpg"
+          },
+          "like": null,
+          "dislike": null
+      },
+    {
+        "id": 3863 ,
+        "name": "D-Day" ,
+        "type": "Scripted" ,
+        "genres": [
+          "Drama" ,
+          "Medical"
+        ] ,
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/19/48598.jpg" ,
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/19/48598.jpg"
+        } ,
+        "like": null ,
+        "dislike": null
+    },
+    {
+        "id": 15991,
+        "name": "D-Frag!",
+        "type": "Animation",
+        "genres": [
+          "Drama",
+          "Comedy",
+          "Anime",
+          "Romance"
+        ],
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/53/134107.jpg",
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/53/134107.jpg"
+        },
+        "like": null,
+        "dislike": null
+    },
+    {
+        "id": 5672,
+        "name": "The Pauly D Project",
+        "type": "Reality",
+        "genres": [],
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/22/56888.jpg",
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/22/56888.jpg"
+        },
+        "like": null,
+        "dislike": null
+    },
+    {
+        "id": 6906,
+        "name": "Princess Princess D",
+        "type": "Scripted",
+        "genres": [
+          "Drama",
+          "Comedy",
+          "Romance"
+        ],
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/26/65153.jpg",
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/26/65153.jpg"
+        },
+        "like": null,
+        "dislike": null
+    },
+    {
+        "id": 20624,
+        "name": "T. D. Jakes",
+        "type": "Talk Show",
+        "genres": [],
+        "image": {
+          "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/72/182376.jpg",
+          "original": "http://static.tvmaze.com/uploads/images/original_untouched/72/182376.jpg"
+        },
+        "like": null,
+        "dislike": null
+      }
+  ]
+}

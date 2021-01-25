@@ -1,52 +1,85 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
+import React, { Component } from 'react';
+import Card                  from '@material-ui/core/Card';
+import CardActionArea        from '@material-ui/core/CardActionArea';
+import CardActions           from '@material-ui/core/CardActions';
+import CardContent           from '@material-ui/core/CardContent';
+import CardMedia             from '@material-ui/core/CardMedia';
+import Typography            from '@material-ui/core/Typography';
+import IconButton            from '@material-ui/core/IconButton';
+import ThumbUpOutlinedIcon   from '@material-ui/icons/ThumbUpOutlined';
+import ThumbDownOutlinedIcon from '@material-ui/icons/ThumbDownOutlined';
+import ThumbUpRoundedIcon    from '@material-ui/icons/ThumbUpRounded';
+import ThumbDownRoundedIcon  from '@material-ui/icons/ThumbDownRounded';
+import { connect }           from "react-redux";
 
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 345,
-  },
-  media: {
-    height: 140,
-  },
-});
+class MediaCard extends Component {
+  handleClickLikeDislike = (movie, action) => {
+    if (action === 'like') {
+      let updateMovie = {
+        ...movie,
+        like: movie.like ? !movie.like : true,
+        dislike: null
+      }
+      this.props.dispatch({
+        type: 'UPDATE_DATA',
+        id: movie.id,
+        data: updateMovie
+      })
+      this.props.onChange(updateMovie)
+    }
+    if (action === 'dislike') {
+      let updateMovie = {
+        ...movie,
+        like: null,
+        dislike: movie.dislike ? !movie.dislike : true
+      }
+      this.props.dispatch({
+        type: 'UPDATE_DATA',
+        id: movie.id,
+        data: updateMovie
+      })
+      this.props.onChange(updateMovie)
+    }
+  }
 
-export default function MediaCard() {
-  const classes = useStyles();
-
-  return (
-    <Card className={classes.root}>
-      <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image="https://images.app.goo.gl/e844UVAd4uNT1gg27"
-          title="Movie"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-          Mission Impossible
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-          A group of terrorists plans to detonate three plutonium cores for a simultaneous nuclear attack on different cities. Ethan Hunt, along with his IMF team, sets out to stop the carnage.
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Like 
-        </Button>
-        <Button size="small" color="primary">
-          Dislike
-        </Button>
-      </CardActions>
-    </Card>
-
-    
-  );
+  render() {
+    const {movieData} = this.props
+    return (
+        <Card>
+          <CardActionArea>
+            <CardMedia
+                component="img"
+                alt="Contemplative Reptile"
+                height="140"
+                image={movieData.image && movieData.image.original ? movieData.image.original: (movieData.image && movieData.image.medium ? movieData.image.medium : null)}
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                {movieData.name ? movieData.name : "Unknown"}
+              </Typography>
+              <ui style={{textAlign: "left"}}>
+                <li>Type: <b>{movieData.type}</b></li>
+                <li>Genres: <b>
+                  {movieData.genres.length ? movieData.genres.join(', '): null}
+                </b></li>
+              </ui>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <IconButton color="primary" onClick={() => this.handleClickLikeDislike(movieData, "like")}>
+              {movieData.like === true ? <ThumbUpRoundedIcon/> :<ThumbUpOutlinedIcon />}
+            </IconButton>
+            <IconButton color="secondary" onClick={() => this.handleClickLikeDislike(movieData, "dislike")}>
+              {movieData.dislike === true ? <ThumbDownRoundedIcon/> :<ThumbDownOutlinedIcon />}
+            </IconButton>
+          </CardActions>
+        </Card>
+    )
+  }
 }
+const mapStateToProps = (state) => {
+  return {
+    data: state
+  }
+}
+export default connect(mapStateToProps)(MediaCard);
